@@ -43,7 +43,7 @@ initial begin
 end
 
 // Fetch instruction from instruction memory
-assign Instruction = instruction_memory[pc_current]; // Assuming word-aligned memory access
+assign Instruction = instruction_memory[pc_current]; 
 
 // Always block to update PC on negative edge of clock or reset
 always @(negedge Clk ) begin
