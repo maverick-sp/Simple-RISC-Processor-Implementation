@@ -5,6 +5,10 @@ This repository contains an implementation of a Simple RISC Processor based on t
 - Execute (EX)
 - Memory Access (MA)
 - Write Back (WB)
+- 
+## Architecture
+
+![Architecture](SimpleRISCArchitecture.png)
 
 ## Features
 - 16 registers (14 general purpose, 2 special purpose) that are 32-bit wide.
