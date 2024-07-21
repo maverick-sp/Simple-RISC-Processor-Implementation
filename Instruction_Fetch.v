@@ -53,7 +53,7 @@ always @(negedge Clk ) begin
         if (IsBranchTaken)
             pc_current <= BranchPC;
         else
-            pc_current <= pc_current + 1;  // Actual pc_current must be pc_current+4 (for the sake of simplicity I have taken 
+            pc_current <= pc_current + 1;  // Actual pc_current must be pc_current+4 (for the sake of simplicity I have taken it to be 1)
     end
 end
 
