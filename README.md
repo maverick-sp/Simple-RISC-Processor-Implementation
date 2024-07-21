@@ -16,13 +16,16 @@ This repository contains an implementation of a Simple RISC Processor based on t
   - Call instructions
 
 ## Project Structure
-- `Instruction_Fetch.v`: Contains the instruction fetch stage implementation.
-- `Operand_Fetch.v`: Contains the operand fetch stage implementation.
+- `ALU.v`: Contains the Arithmetic Logic Unit implementation.
+- `ControlUnit.v`: Contains the control unit implementation.
 - `ExecuteStage.v`: Contains the execution stage implementation.
+- `Instruction_Fetch.v`: Contains the instruction fetch stage implementation.
 - `Memory_Access.v`: Contains the memory access stage implementation.
+- `Operand_Fetch.v`: Contains the operand fetch stage implementation.
 - `Register_File.v`: Contains the register file implementation.
-- `Simple_Risc_Processor.v`: Top-level module connecting all stages.
-- `test.v`: Testbench for the Simple RISC Processor
+- `Register_Write_Back.v`: Contains the register write back stage implementation.
+- `Simple_Risc_Processor.v`: Top-level module connecting all stages
+- `test.v`: Test Bench for the Module
 
 This design is based on the book:
 **"Basic Computer Architecture"** by Dr. Smruti Ranjan Sarangi, IIT Delhi. [Link to the book](https://www.cse.iitd.ac.in/~srsarangi/archbooksoft.html)
