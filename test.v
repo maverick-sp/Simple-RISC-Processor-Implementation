@@ -35,7 +35,7 @@ module test();
     // Clock generation
     initial begin
         clk = 0;
-        forever #5 clk = ~clk;  // Clock period of 10 time units
+        forever #5 clk = ~clk;  
     end
     
     // Initial block for simulation
